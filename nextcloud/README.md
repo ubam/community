@@ -1,4 +1,4 @@
-# nextcloud
+# Nextcloud
 Setting up NC and file acces from Ubuntu Touch
 
 Documentation for First Responders
