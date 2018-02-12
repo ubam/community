@@ -30,7 +30,7 @@ on your PC:
 ## the bug restarted the device, what type of restart was it?
 
 - soft reboot: the session or app closes, and the Ubuntu Touch loading animation appears. In this case, select syslog, unity8 logs and crash logs.
-- hard reboot: the device reboots completely and the white BQ welcome screen appears when the device is switched on. Select last logs.
+- hard reboot: the device reboots completely and the white BQ or black Google welcome screen appears when the device is switched on. Select last logs.
 
 ##  the app shut down or freeze suddenly?
 
@@ -78,7 +78,7 @@ Note: to verify the full route of the application which caused the bug, you can 
  - Run command: 
  - `sudo adb pull /home/phablet/.cache/upstart/application-click-com.ubuntu.gallery_gallery_2.9.1.1260.log.1.gz`
 
-Every time you want to report a bug which is easy to reproduce, it is recommended that you delete previous logs relating to the bug in question. This will avoid confusing Canonical and make it easier for them to identify the bug.  To delete old logs, you can launch a command like the one below in a shell session with your Ubuntu PC or from the Terminal app:
+Every time you want to report a bug which is easy to reproduce, it is recommended that you delete previous logs relating to the bug in question. This will avoid confusing Ubports and make it easier for them to identify the bug.  To delete old logs, you can launch a command like the one below in a shell session with your Ubuntu PC or from the Terminal app:
 
 - Run command: `sudo rm <route where logs are stored>`
 
