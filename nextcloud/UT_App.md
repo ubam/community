@@ -4,7 +4,7 @@
 
 - Ubuntu Touch was created to converge the worlds of mobile- and desktop-computing, and that's also true for its applications. All apps are created with convergence in mind and can automatically adapt to screens from the smallest phone to the biggest tablet, and even work in window-mode on the desktop.
 
-- to acces your Nextcloud from Ubuntu Touch you will need to download and install from OpenStore web or directly from UT OpenStore app in your device Mateo Salta Ubuntu Touch [Nextcloud_Ogra app](https://open.uappexplorer.com/app/nextcloud.mateosalta). This app is still in development and for the latest information visit GitHub page [Nextcloud Ogra](https://github.com/ubam/nextcloud_ogra)
+- to acces your Nextcloud from Ubuntu Touch you will need to download and install from OpenStore web or directly from UT OpenStore app in your device Mateo Salta Ubuntu Touch [Nextcloud_Ogra app](https://open.uappexplorer.com/app/nextcloud.mateosalta). This app is still in development and for the latest information visit GitHub page [Nextcloud Ogra](https://github.com/mateosalta/nextcloud_ogra)
 
 ## SSH conect from Ubuntu Touch
 
