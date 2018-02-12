@@ -55,7 +55,7 @@ All commands written in the form:
 - user: pi
 - password: raspberry
 
-### To get back during Raspberry Pi restart to NOOBS: press (Shift+Enter) buttons on your keyboard 
+### To get back during Raspberry Pi restart to NOOBS: press and hold down the left SHIFT key on your keyboard 
 
 ## Install snappy Nextcloud:
 - first of all you should open Terminal for update and upgrade and free up space on your micro SD card:
@@ -81,41 +81,7 @@ All commands written in the form:
 
 ## Apps installation
 - recomended minimum beside the already installed and enabled apps by default:
-- enable in settings following apps: Calendar, Contacts, External storage,Talk, ...  
-
-## External Data storage and External storage
-
-## External storage configuration
-- connect your external storage to Raspberry Pi and ones it is detected open it
-- copy the external storage adress you will see now in the top bar window of file browser something like this: ##/media/pi
-- click on settings button in Nextcloud screen and select: Admin
-- click on the left side menu on: external storage and paste the address inside second empty cell
-- save with click on save symbol on the right side of the line behind the basket symbol (you may need scroll right the screen)
-- click on Files symbol beside Nextcloud logo
-- click on left menu line with External storages and select the Local file as Favorite
-
-## Move your datastorage to External drive
-[TODO]
-
-## Spin Down and Manage Hard Drive Power on Raspberry Pi
-[TODO]
-
-## SHH configuration
-- go to Preferences - Raspberry Pi Configuration - and Enable SSH interfaces
-- by default it is openned port 22
-- if you prefer you can do so also with Terminal commands
-- open Terminal to verify the SSH service status:
-- Run command: `sudo service ssh status` and `ssh localhost` or `hostname -I`
-- in case it is not enabled:
-- Run command: `sudo systemctl enable ssh` and `sudo systemctl start ssh`
-- and again:  `sudo service ssh status` and `ssh localhost`
-[TODO]
-
-## DNS and https configuration
-[TODO]
-
-## Firewall setup
-[TODO]
+- enable in settings following apps: Calendar, Contacts, External storage,Talk, Deck, ...  
 
 ## Troubleshooting
 [TODO]
