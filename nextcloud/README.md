@@ -22,7 +22,7 @@ To bring your your data back home follow bellow simplified documentation, You ma
 
 Ubuntu Touch is the touch-friendly mobile version of the [Ubuntu](https://ubuntu.com/) operating system. Originally designed and developed by Canonical, it now lives on in the UBports community.
 
-- ubuntu-touch_app.md 
+- UT_App.md 
 - synchronization.md [TODO]
 - manage calendars (CalDAV) and contacts (CarDAV).md [TODO]
 
