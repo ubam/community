@@ -31,4 +31,4 @@ I did try a number of different settigns but they seemd to fail and the above wo
 
 # Authors/Contributors
 
-- ? *(original author)*
+- Jean Joubert @JSJoubert *(original author)*
