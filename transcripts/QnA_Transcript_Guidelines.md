@@ -36,16 +36,20 @@
 > 
 > 
 > **UBports Q&A XX transcript**
+> 
 > Month DD, YYYY
+> 
 > 
 > *Keywords:	[...]*
 > 
+> ```
 > Forum link:	https://forums.ubports.com/topic/XXX/ubuntu-touch-q-a-XXXXXX-XX-XXXX/X
 > YouTube link:	https://youtu.be/XXXXXXXXXXX
 > 
 > 
 > Dalton: generic introduction
 > Marius: random statement
+> 
 > 
 > Topic name
 > 	- first thing
@@ -54,3 +58,5 @@
 > [...]
 > 
 > 
+> 
+> ```
