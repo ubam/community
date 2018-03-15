@@ -4,7 +4,7 @@ When installing an application from the Ubuntu store, the corresponding click pa
 
 Upon installation, all files from a click package are being extracted into a subdirectory of /opt/clicks.ubuntu.com/. (Yes, that means that you can view the source code of every QML app you have installed! :) ) This is what allows us to create a click package for the application using only the files on your phone.
 
-I will demonstrate how to do this using my Forum Browser app as an example but please be cautious that you don’t violate any copyright when trying this with other apps. This tutorial is meant to be for educational purposes only.
+I will demonstrate how to do this using my [Forum Browser app](https://uappexplorer.com/app/com.ubuntu.developer.nikwen.forum-app) * as an example but please be cautious that you don’t violate any copyright when trying this with other apps. This tutorial is meant to be for educational purposes only.
 
 Here you go:
 
@@ -15,13 +15,11 @@ Afterwards, copy the source code of the application to your home directory:
 `cp -r /opt/click.ubuntu.com/com.ubuntu.developer.nikwen.forum-app ~`
 
 The only file we need to care about separately is the manifest.json:
-
-`cd ~/com.ubuntu.developer.nikwen.forum-app/current`
-
-`cp .click/info/com.ubuntu.developer.nikwen.forum-app.manifest manifest.json`
-
-`cd ..`
-
+```
+cd ~/com.ubuntu.developer.nikwen.forum-app/current
+cp .click/info/com.ubuntu.developer.nikwen.forum-app.manifest manifest.json
+cd ..
+```
 Now we can rebuild the click file:
 
 `click build current`
@@ -36,4 +34,7 @@ Please note that our own click file won’t be signed with the official appstore
 
 Have fun!
 
-source: [Niklas Wenzel free sotftware blog](http://nikwen.github.io/ubuntu/2016/02/05/rebuilding-a-click-file-for-an-installed-application.html)
+Source: 
+[Niklas Wenzel free sotftware blog](http://nikwen.github.io/ubuntu/2016/02/05/rebuilding-a-click-file-for-an-installed-application.html) and [GitHub nikwen/forum-app](https://github.com/nikwen/forum-app)
+
+*Note: the Forum Browser app may be already by Niklas Wenzel discontinued, you may choose another one. 
