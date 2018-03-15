@@ -14,8 +14,7 @@ So the only common aspect is that both make sound out of a speaker."
 
 Linphone makes use of the SIP protocol (an open standard for internet telephony) and can be used with any SIP VoIP operator, including our free SIP audio/video service.
 
-Ubuntu Touch Linphone development by Brian Douglas and Joan Ciber Sheep: [LINPHONE app](bhdouglass/compile-linphone-ubuntu-touch
-)
+Ubuntu Touch Linphone development by Brian Douglas and Joan Ciber Sheep: [LINPHONE app](https://github.com/bhdouglass/compile-linphone-ubuntu-touch)
 
 [The Serval Project](http://www.servalproject.org/)
 
@@ -23,4 +22,4 @@ Serval is a telecommunications system comprised of at least two mobile phones th
 
 A Shuttleworth Foundation Funded Project
 
-Ubuntu Touch Serval project development by TrontyFortyTwo and the team of Serval project: [SERVAL app](https://github.com/TronFortyTwo/serval-ubuntu-touch)
+Ubuntu Touch Serval project development by Emanuele Sorce and the team of Serval project: [SERVAL app](https://github.com/TronFortyTwo/serval-ubuntu-touch)
