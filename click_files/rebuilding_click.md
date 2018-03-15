@@ -1,4 +1,4 @@
-##Rebuilding a click file for an installed application
+## Rebuilding a click file for an installed application
 
 When installing an application from the Ubuntu store, the corresponding click package isn’t permanently saved on your phone. However, this post aims to show that is relatively easy to rebuild it.
 
@@ -12,22 +12,28 @@ First of all, install the respective application from the Ubuntu Store.
 Then open a shell on your device, either using the terminal app or ADB.
 Afterwards, copy the source code of the application to your home directory:
 
-$ cp -r /opt/click.ubuntu.com/com.ubuntu.developer.nikwen.forum-app ~
+`cp -r /opt/click.ubuntu.com/com.ubuntu.developer.nikwen.forum-app ~`
+
 The only file we need to care about separately is the manifest.json:
 
-$ cd ~/com.ubuntu.developer.nikwen.forum-app/current
-$ cp .click/info/com.ubuntu.developer.nikwen.forum-app.manifest manifest.json
-$ cd ..
+`cd ~/com.ubuntu.developer.nikwen.forum-app/current`
+
+`cp .click/info/com.ubuntu.developer.nikwen.forum-app.manifest manifest.json`
+
+`cd ..`
+
 Now we can rebuild the click file:
 
-$ click build current
+`click build current`
+
 That’s it. :)
 
 You can install the click package using the following command:
 
-$ pkcon install-local com.ubuntu.developer.nikwen.forum-app_0.3.1_all.click --allow-untrusted
+`pkcon install-local com.ubuntu.developer.nikwen.forum-app_0.3.1_all.click --allow-untrusted`
+
 Please note that our own click file won’t be signed with the official appstore certificate though, but that shouldn’t really bother anyone. ;)
 
 Have fun!
 
-source:http://nikwen.github.io/ubuntu/2016/02/05/rebuilding-a-click-file-for-an-installed-application.html
+source: [Niklas Wenzel free sotftware blog](http://nikwen.github.io/ubuntu/2016/02/05/rebuilding-a-click-file-for-an-installed-application.html)
